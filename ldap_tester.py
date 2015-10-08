@@ -16,7 +16,6 @@ DN, Secret, un = ["testuser@fqdn.com","password","testuser"]
 
 print ("usage: run_filter('" + Server + "','" + DN + "','" + Secret + "','" + un + "')")
 
-
 def run_filter(Server, DN, Secret, un):
 
     Base = "dc=amd,dc=com"
